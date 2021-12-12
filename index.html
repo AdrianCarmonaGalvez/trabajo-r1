@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yamaha R1</title>
+    <link rel="shortcut icon" href="./imagenes/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./styles/estilo.css">
+    <script src="./javascripts/javascript.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./imagenes/motocicleta.png" type="image/x-icon">
+</head>
+<body>
+    <div id="container">
+        <nav class="topnav" id="myTopnav">
+            <a class="active" href="#morro">Home</a>
+            <a href="#competicion">Competicion</a>
+            <a href="#tecnologia">Tecnologia</a>
+            <a href="#galeria">Galeria</a>
+            <a href="#motor">Motor</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+              </a>
+        </nav>
+        <section id="morro">
+            <a href="#container"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
+        </section>
+        <section id="competicion">
+            <h1>COMPETICION</h1>
+            <img id="fotomoto" src="./imagenes/R1blanca.jpg" alt="moto blanca R1">
+            <p>La R1 se ha diseñado sin renunciar a nada y está equipada con la tecnología de motor y chasis más sofisticada, lo que la convierten en la superdeportiva Yamaha definitiva. </p>
+            <p>Motor Company ganó su primera carrera solo 10 días después de la fundación de la empresa. Este ardiente anhelo por la velocidad sigue definiendo a Yamaha a día de hoy, y es lo que permite a la empresa crear motos superdeportivas de alto rendimiento como la nueva R1.</p>
+        </section>
+        <section id="tecnologia">
+            <div class="mitad" id="izquierda">
+                <h1>Sistema de control de salida en
+                    lanzamiento (LCS) optimizado</h1>
+                <p>Gracias a los datos de una amplia gama de
+                    sensores, el sistema de control de salida
+                    en lanzamiento (LCS) de la R1 te ofrece
+                    un mayor control al inicio de las carreras.
+                    Para conseguir lanzamientos aún más
+                    rápidos, el modo LCS1 se ha modi cado
+                    para activarse a 9000 rpm con una
+                    apertura del acelerador de 41 grados</p>
+            </div>
+            <div class="mitad" id="derecha">
+                <img id="motooscura" src="./imagenes/motosalaoscura.jpg" alt="motodenoche">
+            </div>
+            <div class="fin_float"></div>
+        </section>
+        <section id="galeria">
+            <!-- Container for the image gallery -->
+<div class="galery">
+
+    <!-- Full-width images with number text -->
+    <div class="mySlides">
+      <div class="numbertext">1 / 6</div>
+        <img src="./imagenes/2020-Yamaha-YZF1000R1-EU-Yamaha_Blue-Static-005-03.jpg" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">2 / 6</div>
+        <img src="./imagenes/morroR1R.jpg" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">3 / 6</div>
+        <img src="./imagenes/2020-Yamaha-YZF1000R1-EU-Icon_Blue-Action-004-03.jpg" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">4 / 6</div>
+        <img src="./imagenes/valentino_rossi_yamaha_r1_misano.jpg" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">5 / 6</div>
+        <img src="./imagenes/yamaha-yzf-r1-gytr-20-aniversario_1.jpg" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">6 / 6</div>
+        <img src="./imagenes/full-carbon-ride-racing-yamaha-r1-2015-2019-replica-gytr.jpg" style="width:100%">
+    </div>
+  
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  
+    <!-- Image text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+  
+    <!-- Thumbnail images -->
+    <div class="row">
+      <div class="column">
+        <img class="demo cursor" src="./imagenes/2020-Yamaha-YZF1000R1-EU-Yamaha_Blue-Static-005-03.jpg" style="width:100%" onclick="currentSlide(1)" alt="Colores de la yamaha R1 negro y azul">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="./imagenes/morroR1R.jpg" style="width:100%" onclick="currentSlide(2)" alt="Morro yamaha R1 R">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="./imagenes/2020-Yamaha-YZF1000R1-EU-Icon_Blue-Action-004-03.jpg" style="width:100%" onclick="currentSlide(3)" alt="Yamaha R1 en curva">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="./imagenes/valentino_rossi_yamaha_r1_misano.jpg" style="width:100%" onclick="currentSlide(4)" alt="Valentino Rossi en la yamaha R1">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="./imagenes/yamaha-yzf-r1-gytr-20-aniversario_1.jpg" style="width:100%" onclick="currentSlide(5)" alt="Yamaha R1 20 aniversario">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="./imagenes/full-carbon-ride-racing-yamaha-r1-2015-2019-replica-gytr.jpg" style="width:100%" onclick="currentSlide(6)" alt="Yamaha R1 de carbono">
+      </div>
+    </div>
+  </div>
+  <div class="fin_float"></div>
+        </section>
+        <section id="motor">
+                <div class="text">
+                    <h1>Especificaciones de el MOTOR</h1>
+                    <p> Motor: 4 Tiempos, refrigerado ,por líquido, DOHC, 4 ,cilíndros en línea, 4 ,válvulas <br>
+                    Cilindrada:	998 cc <br>
+                    Diámetro x carrera:	79.0 mm x 50.9 mm<br>
+                    Potencia: 199.9 HP a 13500 rpm<br>
+                    Torque Máximo: 112.4 NM a 11500 rpm<br>
+                    Arranque: Eléctrico<br>
+                    Capacidad de combustible: 17 L<br>
+                    Transmisión:6 Velocidades, engrane constante, cadena.</p>
+                </div>
+                <div class="texto">
+                    <iframe class="responsive-iframe" src="https://www.youtube.com/embed/_OTcq2B1Wdo"></iframe>
+                </div>
+            <div class="fin_float"></div>
+        </section>
+        <footer> 
+            <div id="final">
+                <img id="rueda" src="./imagenes/AngelGT-II-Technology-4505502398523.png" alt="rueda moto fondo transparente">
+                <p>Pagina web echa por: Adrian Carmona Galvez <br>
+                Telefono de contacto: 64 000 000 000 <br>
+                Correo de contacto: correoimaginario@gmail.com
+                </p>
+                <hr>
+                <div id="social">
+                    <a href="https://es-es.facebook.com/YamahaMotorEU/" target="_blank" class="fa fa-facebook"></a>
+                    <a href="https://twitter.com/YamahaMotoGP" target="_blank" class="fa fa-twitter"></a>
+                    <a href="https://www.youtube.com/watch?v=HefDDdexuwQ&ab_channel=EakasitChantakul" target="_blank" class="fa fa-youtube"></a>
+                    <a href="https://www.instagram.com/yamahamotor_es/?hl=es" target="_blank" class="fa fa-instagram"></a>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
